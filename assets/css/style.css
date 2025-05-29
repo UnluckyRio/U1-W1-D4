@@ -1,117 +1,155 @@
-/* FONT */
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-extrabold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.poppins-thin-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
 /* BODY */
-background-image {
-  background-image: url("../images/background.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url(../img/sfondo.png);
+  background-size: auto;
 }
 /* HEADER */
+
+header {
+  background-color: #0099c6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+}
+
+#top {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 1.2em;
+  margin: 20px 0;
+  padding: 20px;
+}
+li {
+  margin: 1em;
+}
+.nav {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* MAIN */
+main {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
+  text-align: center;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  margin-top: 1em;
+  text-align: left;
+}
+
+main h2 {
+  font-size: 2em;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+p.author {
+  color: grey;
+  margin-top: 1 em;
+  margin-bottom: 1em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+th {
+  background-color: rgb(86, 86, 255);
+  color: white;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+thead {
+  background-color: grey;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+b {
+  color: purple;
+  font-weight: bold;
+}
+main ul li {
+  list-style-type: disc;
+}
+.box {
+  width: auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+main ol li {
+  list-style-type: decimal;
+}
+
+caption {
+  font-weight: bold;
+  font-style: italic;
+}
+
+main a {
+  color: #0099c6;
+}
+
+iframe {
+  margin-top: 1em;
+  width: 400px;
+  height: 200px;
+  border-radius: 12px;
+}
+
+.case {
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  max-width: 800px; /* Regola per adattarsi alla larghezza desiderata */
+  margin: 40px auto; /* Centra il div nella pagina con margine verticale */
+  background-color: rgb(178, 175, 175);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+div h3 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+div p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+form {
+  align-items: center;
+  margin-top: 20px;
+}
