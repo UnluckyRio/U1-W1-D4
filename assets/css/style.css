@@ -149,7 +149,54 @@ div p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-form {
+.email-form {
+  display: flex;
   align-items: center;
-  margin-top: 20px;
+}
+
+.email-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.subscribe-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.articoli {
+  text-align: center;
+}
+
+.data {
+  text-align: right;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(0, 81, 84);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  margin-top: 1em;
+  text-align: center;
+}
+address {
+  margin-top: 2em;
+}
+
+.email {
+  color: rgb(255, 0, 255);
+  text-decoration: none;
+  font-weight: bold;
 }
